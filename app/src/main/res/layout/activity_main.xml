@@ -20,8 +20,8 @@
             android:layout_height="120dp"
             android:layout_weight="1"
             android:ems="10"
-            android:inputType="textPersonName"
-            android:text="Numero 1" />
+            android:inputType="number"
+            android:hint="Número 1" />
 
         <EditText
             android:id="@+id/numero2"
@@ -29,9 +29,8 @@
             android:layout_height="120dp"
             android:layout_weight="1"
             android:ems="10"
-            android:inputType="textPersonName"
-            android:text="Numero 2" />
-
+            android:inputType="number"
+            android:hint="Número 2" />
     </LinearLayout>
 
     <androidx.constraintlayout.widget.ConstraintLayout

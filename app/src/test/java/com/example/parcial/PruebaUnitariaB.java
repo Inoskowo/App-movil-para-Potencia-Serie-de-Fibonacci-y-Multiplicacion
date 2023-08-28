@@ -1,9 +1,18 @@
 package com.example.parcial;
+
 import static org.junit.Assert.assertEquals;
+
+import com.example.parcial.MainActivity;
+
 import org.junit.Before;
 import org.junit.Test;
+import org.junit.runner.RunWith;
 import org.robolectric.Robolectric;
+import org.robolectric.RobolectricTestRunner;
+import org.robolectric.annotation.Config;
 
+@RunWith(RobolectricTestRunner.class)
+@Config(sdk = 29, manifest=Config.NONE)
 public class PruebaUnitariaB {
 
     private MainActivity activity;
