@@ -9,13 +9,14 @@ import android.widget.EditText;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
-    private Button button_multiplicar;
-    private Button button_potencia;
-    private Button button_fibonacci;
-    private Button button_ncalculo;
+    Button button_multiplicar;
+    Button button_potencia;
+    Button button_fibonacci;
+    Button button_ncalculo;
 
-    private TextView resultado;
-     private EditText numero1, numero2;
+    TextView resultado;
+     EditText numero1;
+    EditText numero2;
 
 
     @Override
